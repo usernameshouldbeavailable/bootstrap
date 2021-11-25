@@ -44,6 +44,9 @@
                         <a class="dropdown-item" href="#">Learning Cooking</a>
                     </div>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="modal" data-target="#modelId"><i class="fa fa-lock" aria-hidden="true"></i> Login</span></a>
+                </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="text" placeholder="Search">
@@ -355,6 +358,35 @@
             </div>
 
 
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Login</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="">
+                            <div class="form-group">
+                                <label for="">Email</label>
+                                <input type="email" class="form-control" placeholder="example@domain.com" />
+                            </div>
+                            <div class="form-group">
+                                <label for="">Password</label>
+                                <input type="password" class="form-control" placeholder="password"/>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Login</button>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </div>
